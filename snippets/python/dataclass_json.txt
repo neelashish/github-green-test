@@ -1,0 +1,14 @@
+﻿# JSON serializable dataclass
+# Language: python
+
+from dataclasses import dataclass, asdict
+import json
+
+@dataclass
+class User:
+    name: str
+    email: str
+    age: int = 0
+
+    def to_json(self): return json.dumps(asdict(self))
+
