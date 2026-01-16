@@ -1,0 +1,15 @@
+﻿# Concurrent async requests
+# Language: python
+
+import asyncio
+
+async def fetch(url):
+    await asyncio.sleep(0.1)
+    return f'Response from {url}'
+
+async def main():
+    results = await asyncio.gather(
+        fetch('/api/1'), fetch('/api/2'), fetch('/api/3')
+    )
+    return results
+
