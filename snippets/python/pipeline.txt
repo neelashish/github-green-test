@@ -1,0 +1,18 @@
+﻿# Data pipeline pattern
+# Language: python
+
+from functools import reduce
+
+def pipeline(*functions):
+    def execute(data):
+        return reduce(lambda d, f: f(d), functions, data)
+    return execute
+
+process = pipeline(
+    str.strip,
+    str.lower,
+    lambda s: s.replace(' ', '_')
+)
+
+result = process('  Hello World  ')  # 'hello_world'
+
