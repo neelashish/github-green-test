@@ -1,0 +1,9 @@
+﻿# Safe temp files
+# Language: bash
+
+#!/bin/bash
+set -euo pipefail
+TMPDIR=$(mktemp -d)
+trap "rm -rf $TMPDIR" EXIT
+echo working > $TMPDIR/data.txt
+
