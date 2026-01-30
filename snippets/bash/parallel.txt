@@ -1,0 +1,10 @@
+﻿# Parallel execution
+# Language: bash
+
+#!/bin/bash
+for f in *.txt; do
+    process_file "$f" &
+done
+wait
+echo "All done"
+
