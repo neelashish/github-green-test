@@ -1,0 +1,9 @@
+﻿# Log function
+# Language: bash
+
+#!/bin/bash
+log() { echo "[$(date)] [$1] $2"; }
+log INFO "Script started"
+log WARN "Low disk space"
+log ERROR "Connection failed"
+
