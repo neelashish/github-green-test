@@ -1,0 +1,13 @@
+﻿# Argument parsing
+# Language: bash
+
+#!/bin/bash
+while getopts ":f:o:vh" opt; do
+  case $opt in
+    f) FILE=$OPTARG ;;
+    o) OUT=$OPTARG ;;
+    v) VERBOSE=1 ;;
+    h) usage; exit 0 ;;
+  esac
+done
+
