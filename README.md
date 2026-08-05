@@ -15,6 +15,32 @@ git clone https://github.com/neelashish/github-green-test.git
 cd github-green-test
 `
 
+## Usage
+
+### Creating a backdated commit
+
+```bash
+# Set the date for the commit
+export GIT_AUTHOR_DATE="2026-08-01T12:00:00 +0000"
+export GIT_COMMITTER_DATE="2026-08-01T12:00:00 +0000"
+
+git commit -m "Your message"
+```
+
+See the [examples](examples/) directory for ready-to-use scripts.
+
+## Project Structure
+
+```
+github-green-test/
++-- README.md
++-- docs/           # Documentation and guides
++-- examples/       # Example scripts
++-- activity.txt    # Activity log
++-- green-test.sh   # Original test script
+```
+
 ## Status
 
 Under active development.
+
