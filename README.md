@@ -2,6 +2,15 @@
 
 A repository for testing and understanding GitHub's contribution graph mechanics.
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Quick Start](#quick-start)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Documentation](#documentation)
+- [Status](#status)
+
 ## Overview
 
 This project explores how GitHub tracks and displays contributions on user profiles.
@@ -40,7 +49,13 @@ github-green-test/
 +-- green-test.sh   # Original test script
 ```
 
+## Documentation
+
+- [How GitHub Contributions Work](docs/github-contributions.md)
+- [Setup Guide](docs/setup-guide.md)
+
 ## Status
 
-Under active development.
+Under active development. See [CHANGELOG](CHANGELOG.md) for recent updates.
+
 
