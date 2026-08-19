@@ -54,8 +54,14 @@ github-green-test/
 - [How GitHub Contributions Work](docs/github-contributions.md)
 - [Setup Guide](docs/setup-guide.md)
 
+## Contributing
+
+Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for
+guidelines on how to submit changes.
+
 ## Status
 
 Under active development. See [CHANGELOG](CHANGELOG.md) for recent updates.
+
 
 
