@@ -15,4 +15,13 @@ All notable changes to this project will be documented in this file.
 - .gitignore for common OS/editor files
 
 ### Changed
+- Improved green-test.sh with error handling and comments
+- README restructured with table of contents
+
+### Infrastructure
+- Added email checking script
+- Added interactive setup script
+- Added commit pattern analyzer
+- Added date range commit script
 - README updated with table of contents and documentation links
+
