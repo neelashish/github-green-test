@@ -33,3 +33,19 @@ would appear as Tuesday on the graph (since that's 4:30 AM UTC Tuesday).
 
 GitHub shows the last 365 days on the contribution graph by default. Older
 contributions still exist but won't appear on the main profile view.
+
+## Does the contribution graph count private repository commits?
+
+Yes, if you enable the "Private contributions" setting on your GitHub profile.
+Go to your profile page and look for the checkbox below the contribution graph.
+
+## Can I see someone else's contribution details?
+
+You can see the overall contribution graph on any public profile, but the
+specific repositories are only visible if they are public. Private repo
+contributions show as anonymous green squares.
+
+## Do GitHub Actions bot commits count?
+
+No. Commits made by bots (like GitHub Actions) with a `[bot]` email suffix
+do not count as personal contributions.
