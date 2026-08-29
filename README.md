@@ -1,5 +1,7 @@
 ﻿# GitHub Green Test
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A repository for testing and understanding GitHub's contribution graph mechanics.
 
 ## Table of Contents
@@ -62,6 +64,7 @@ guidelines on how to submit changes.
 ## Status
 
 Under active development. See [CHANGELOG](CHANGELOG.md) for recent updates.
+
 
 
 
