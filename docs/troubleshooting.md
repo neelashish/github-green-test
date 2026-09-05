@@ -38,3 +38,21 @@ GIT_AUTHOR_DATE="2026-08-01T12:00:00 +0000" git commit -m "message"
 If past commits used a misspelled email, you have two options:
 1. Add the typo email to your GitHub account (easiest)
 2. Rewrite history with `git filter-repo` (destructive)
+
+## Problem: Contribution graph shows wrong number of commits
+
+GitHub's contribution graph shows the count of commits per day, not the
+count of unique changes. If you amend a commit, the original and amended
+versions may both count (or neither, depending on timing).
+
+### Fix: Don't amend pushed commits
+Once a commit is pushed, avoid amending it. Create a new commit instead.
+
+## Problem: Commits disappeared after force push
+
+Force pushing (`git push --force`) replaces the remote history. If the
+old commits had different hashes, GitHub may stop counting them.
+
+### Fix: Avoid force pushing
+Use `git push --force-with-lease` if you must force push, and be aware
+that contribution counts may change.
