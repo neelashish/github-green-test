@@ -37,4 +37,14 @@ echo ""
 TOTAL=$(git log --all --oneline | wc -l)
 echo "Total commits: $TOTAL"
 echo ""
+echo "=== Detailed Statistics ===
+
+# Commits per month
+echo "Commits by month:"
+git log --all --pretty=format:"%ad" --date=format:"%Y-%m" | sort | uniq -c | sort -k2 | while read count month; do
+    printf "  %s: %3d commits\n" "$month" "$count"
+done
+
+echo ""
 echo "=== Validation Complete ==="
+
