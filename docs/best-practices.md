@@ -43,3 +43,35 @@ git config --global user.email "you@example.com"
 
 Each commit should represent one logical change. This makes the history
 easier to read and debug with tools like `git bisect`.
+
+## Repository Hygiene
+
+### Keep a Clean History
+- Squash WIP commits before merging
+- Write meaningful commit messages
+- Don't commit generated files
+
+### .gitignore
+Always maintain a `.gitignore` file. Common entries:
+
+```
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+.vscode/
+.idea/
+
+# Build artifacts
+*.o
+*.pyc
+__pycache__/
+node_modules/
+```
+
+### Regular Maintenance
+- Review and prune stale branches
+- Keep dependencies updated
+- Run tests before pushing
