@@ -52,3 +52,24 @@ and data analysis, making it ideal for commit pattern tools.
 ### Why activity.txt?
 A simple text file that tracks commit activity provides a low-friction
 way to generate meaningful file changes for each commit.
+
+## File Categories
+
+### Documentation (docs/)
+Human-readable guides and references. Written in Markdown for GitHub
+rendering compatibility.
+
+### Examples (examples/)
+Runnable scripts that demonstrate specific features. Shell scripts for
+git operations, Python for data analysis and reporting.
+
+### Scripts (scripts/)
+Utility scripts for repository maintenance and validation. These are
+tools for the repository maintainer, not examples.
+
+### Tests (tests/)
+Validation scripts that verify the repository is correctly configured.
+Each test script follows a consistent pattern with pass/fail assertions.
+A simple text file that tracks commit activity provides a low-friction
+way to generate meaningful file changes for each commit.
+
