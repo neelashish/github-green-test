@@ -4,7 +4,15 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
-### September 2026
+### September 2026 (continued)
+- Added contribution calendar visualization tool
+- Added CSV history export script
+- Added tests for export and hook scripts
+- Updated architecture doc with file categories
+- Updated best practices with repository hygiene section
+- Updated setup guide with test running instructions
+
+### September 2026 (early)
 - Added daily summary script for tracking activity
 - Expanded GitHub contributions doc with timezone table
 - Added weekly report generator
@@ -34,5 +42,6 @@ All notable changes to this project will be documented in this file.
 - Added commit pattern analyzer
 - Added date range commit script
 - README updated with table of contents and documentation links
+
 
 
