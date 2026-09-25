@@ -61,9 +61,23 @@ github-green-test/
 Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for
 guidelines on how to submit changes.
 
+## Running Tests
+
+```bash
+# Run the full test suite
+bash tests/run_all_tests.sh
+```
+
+## License
+
+This project is licensed under the MIT License - see [LICENSE](LICENSE) for details.
+
 ## Status
 
+Stable - v1.0.0 released. See [Release Notes](docs/release-notes.md) for details.
+
 Under active development. See [CHANGELOG](CHANGELOG.md) for recent updates.
+
 
 
 
