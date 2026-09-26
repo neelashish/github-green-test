@@ -95,3 +95,4 @@ Daily activity: 2024-03-31
 # This file tracks daily activity in the repository.
 # Format: Activity: YYYY-MM-DD (description)
 Activity: 2026-09-24 (documentation and testing updates)
+Activity: 2026-09-26 (v1.0.0 final cleanup)
